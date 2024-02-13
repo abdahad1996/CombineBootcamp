@@ -11,6 +11,9 @@
 		650B33B82B63C15800363DDC /* ChainedRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650B33B72B63C15800363DDC /* ChainedRequests.swift */; };
 		650B33BE2B64195700363DDC /* ZipRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650B33BD2B64195700363DDC /* ZipRequests.swift */; };
 		650B33C12B641A9000363DDC /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650B33C02B641A9000363DDC /* model.swift */; };
+		654105972B7BA32A00F87683 /* Append.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654105962B7BA32A00F87683 /* Append.swift */; };
+		654105992B7BAC2100F87683 /* DropUntil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654105982B7BAC2000F87683 /* DropUntil.swift */; };
+		6541059B2B7BB2ED00F87683 /* DropFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6541059A2B7BB2ED00F87683 /* DropFirst.swift */; };
 		655101812B7022370097C093 /* DataTaskPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655101802B7022360097C093 /* DataTaskPublisher.swift */; };
 		655101832B70304C0097C093 /* Satisfy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655101822B70304C0097C093 /* Satisfy.swift */; };
 		655DB1D62B62893500397D23 /* CombineBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655DB1D52B62893500397D23 /* CombineBootcampApp.swift */; };
@@ -36,6 +39,9 @@
 		650B33B72B63C15800363DDC /* ChainedRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainedRequests.swift; sourceTree = "<group>"; };
 		650B33BD2B64195700363DDC /* ZipRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipRequests.swift; sourceTree = "<group>"; };
 		650B33C02B641A9000363DDC /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		654105962B7BA32A00F87683 /* Append.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Append.swift; sourceTree = "<group>"; };
+		654105982B7BAC2000F87683 /* DropUntil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropUntil.swift; sourceTree = "<group>"; };
+		6541059A2B7BB2ED00F87683 /* DropFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropFirst.swift; sourceTree = "<group>"; };
 		655101802B7022360097C093 /* DataTaskPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTaskPublisher.swift; sourceTree = "<group>"; };
 		655101822B70304C0097C093 /* Satisfy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Satisfy.swift; sourceTree = "<group>"; };
 		655DB1D22B62893500397D23 /* CombineBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +104,9 @@
 		650B33BC2B63C7DC00363DDC /* Sequence */ = {
 			isa = PBXGroup;
 			children = (
+				654105962B7BA32A00F87683 /* Append.swift */,
+				654105982B7BAC2000F87683 /* DropUntil.swift */,
+				6541059A2B7BB2ED00F87683 /* DropFirst.swift */,
 			);
 			path = Sequence;
 			sourceTree = "<group>";
@@ -328,11 +337,14 @@
 				655DB23E2B628A3800397D23 /* CurrentValueSubjectView.swift in Sources */,
 				655DB1F02B6289C200397D23 /* Fail.swift in Sources */,
 				655DB22A2B628A3800397D23 /* JustView.swift in Sources */,
+				654105972B7BA32A00F87683 /* Append.swift in Sources */,
 				650B33B62B63328F00363DDC /* Contains.swift in Sources */,
 				655DB2392B628A3800397D23 /* FutureImmediate.swift in Sources */,
 				655DB2372B628A3800397D23 /* Defer.swift in Sources */,
 				650B33B82B63C15800363DDC /* ChainedRequests.swift in Sources */,
 				655DB1D62B62893500397D23 /* CombineBootcampApp.swift in Sources */,
+				6541059B2B7BB2ED00F87683 /* DropFirst.swift in Sources */,
+				654105992B7BAC2100F87683 /* DropUntil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
