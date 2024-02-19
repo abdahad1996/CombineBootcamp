@@ -10,7 +10,7 @@ import Combine
 
 //Use the replaceEmpty operator when you want to show or set some value in the case that nothing came down your pipeline. This could be useful in situations
 //where you want to set some default data or notify the user that there was no data.
-class ReplaceErrorVM:ObservableObject {
+class ReplaceEmptyVM:ObservableObject {
     @Published var data: [String] = []
     
     func fetch() {
@@ -25,8 +25,8 @@ class ReplaceErrorVM:ObservableObject {
         
     }
 }
-struct ReplaceError: View {
-    @StateObject var vm = ReplaceErrorVM()
+struct ReplaceEmpty: View {
+    @StateObject var vm = ReplaceEmptyVM()
     var body: some View {
 
         List(vm.data, id: \.self) { datum in
@@ -39,5 +39,5 @@ struct ReplaceError: View {
 }
 
 #Preview {
-    ReplaceError()
+    ReplaceEmpty()
 }
