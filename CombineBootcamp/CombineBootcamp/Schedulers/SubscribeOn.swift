@@ -55,6 +55,7 @@ class SubscribeONVM: ObservableObject {
             .subscribe(on: DispatchQueue.global())
             .receive(on: DispatchQueue.main)
             .sink { [unowned self] item in
+                print("sink: Main thread? \(Thread.isMainThread)")
                 dataToView.append(item)
             }
     }

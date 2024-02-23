@@ -59,6 +59,21 @@
 		657839272B82B60700D471AC /* Output.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657839262B82B60700D471AC /* Output.swift */; };
 		6578392A2B82B87400D471AC /* RecieveOn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657839292B82B87400D471AC /* RecieveOn.swift */; };
 		6578392C2B82BAA200D471AC /* SubscribeOn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6578392B2B82BAA200D471AC /* SubscribeOn.swift */; };
+		6578392F2B83ACF300D471AC /* AssignTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6578392E2B83ACF300D471AC /* AssignTo.swift */; };
+		657839312B83AE5800D471AC /* Sink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657839302B83AE5800D471AC /* Sink.swift */; };
+		657839332B84F7E800D471AC /* PropertyPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657839322B84F7E800D471AC /* PropertyPublisher.swift */; };
+		657839352B84FB2500D471AC /* AnyPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657839342B84FB2500D471AC /* AnyPublisher.swift */; };
+		65B3A1982B87A01B004406B3 /* CombineLatest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B3A1972B87A01B004406B3 /* CombineLatest.swift */; };
+		65B3A19A2B87A2B7004406B3 /* FlatMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B3A1992B87A2B7004406B3 /* FlatMap.swift */; };
+		65B3A19C2B87D186004406B3 /* Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B3A19B2B87D186004406B3 /* Merge.swift */; };
+		65B3A19E2B87D2B1004406B3 /* SwitchToLatest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B3A19D2B87D2B1004406B3 /* SwitchToLatest.swift */; };
+		65B3A1A02B88B7C1004406B3 /* Zip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B3A19F2B88B7C1004406B3 /* Zip.swift */; };
+		65B3A1A42B88D296004406B3 /* AssertNoFailure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B3A1A32B88D296004406B3 /* AssertNoFailure.swift */; };
+		65B3A1A62B88F7DB004406B3 /* Catch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B3A1A52B88F7DB004406B3 /* Catch.swift */; };
+		65B3A1A82B88FA0B004406B3 /* TryCatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B3A1A72B88FA0B004406B3 /* TryCatch.swift */; };
+		65B3A1AA2B8907F6004406B3 /* MapError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B3A1A92B8907F6004406B3 /* MapError.swift */; };
+		65B3A1AC2B890C34004406B3 /* ReplaceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B3A1AB2B890C34004406B3 /* ReplaceError.swift */; };
+		65B3A1AE2B890DCD004406B3 /* Retry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B3A1AD2B890DCD004406B3 /* Retry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -116,6 +131,22 @@
 		657839262B82B60700D471AC /* Output.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Output.swift; sourceTree = "<group>"; };
 		657839292B82B87400D471AC /* RecieveOn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecieveOn.swift; sourceTree = "<group>"; };
 		6578392B2B82BAA200D471AC /* SubscribeOn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeOn.swift; sourceTree = "<group>"; };
+		6578392E2B83ACF300D471AC /* AssignTo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignTo.swift; sourceTree = "<group>"; };
+		657839302B83AE5800D471AC /* Sink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sink.swift; sourceTree = "<group>"; };
+		657839322B84F7E800D471AC /* PropertyPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyPublisher.swift; sourceTree = "<group>"; };
+		657839342B84FB2500D471AC /* AnyPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyPublisher.swift; sourceTree = "<group>"; };
+		65B3A1972B87A01B004406B3 /* CombineLatest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineLatest.swift; sourceTree = "<group>"; };
+		65B3A1992B87A2B7004406B3 /* FlatMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatMap.swift; sourceTree = "<group>"; };
+		65B3A19B2B87D186004406B3 /* Merge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merge.swift; sourceTree = "<group>"; };
+		65B3A19D2B87D2B1004406B3 /* SwitchToLatest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchToLatest.swift; sourceTree = "<group>"; };
+		65B3A19F2B88B7C1004406B3 /* Zip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zip.swift; sourceTree = "<group>"; };
+		65B3A1A22B88D1F0004406B3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		65B3A1A32B88D296004406B3 /* AssertNoFailure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssertNoFailure.swift; sourceTree = "<group>"; };
+		65B3A1A52B88F7DB004406B3 /* Catch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catch.swift; sourceTree = "<group>"; };
+		65B3A1A72B88FA0B004406B3 /* TryCatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TryCatch.swift; sourceTree = "<group>"; };
+		65B3A1A92B8907F6004406B3 /* MapError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapError.swift; sourceTree = "<group>"; };
+		65B3A1AB2B890C34004406B3 /* ReplaceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceError.swift; sourceTree = "<group>"; };
+		65B3A1AD2B890DCD004406B3 /* Retry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Retry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +264,11 @@
 		655DB1D42B62893500397D23 /* CombineBootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				65B3A1A12B88D192004406B3 /* ErrorHandling */,
+				65B3A1962B879FC2004406B3 /* CombinePublishers */,
+				657839342B84FB2500D471AC /* AnyPublisher.swift */,
+				657839322B84F7E800D471AC /* PropertyPublisher.swift */,
+				6578392D2B83ACD000D471AC /* Subscribers */,
 				657839282B82B86500D471AC /* Schedulers */,
 				650B33B32B631F0400363DDC /* Operators */,
 				655DB1E42B62897A00397D23 /* Publishers */,
@@ -381,6 +417,41 @@
 			path = Schedulers;
 			sourceTree = "<group>";
 		};
+		6578392D2B83ACD000D471AC /* Subscribers */ = {
+			isa = PBXGroup;
+			children = (
+				6578392E2B83ACF300D471AC /* AssignTo.swift */,
+				657839302B83AE5800D471AC /* Sink.swift */,
+			);
+			path = Subscribers;
+			sourceTree = "<group>";
+		};
+		65B3A1962B879FC2004406B3 /* CombinePublishers */ = {
+			isa = PBXGroup;
+			children = (
+				65B3A1972B87A01B004406B3 /* CombineLatest.swift */,
+				65B3A1992B87A2B7004406B3 /* FlatMap.swift */,
+				65B3A19B2B87D186004406B3 /* Merge.swift */,
+				65B3A19D2B87D2B1004406B3 /* SwitchToLatest.swift */,
+				65B3A19F2B88B7C1004406B3 /* Zip.swift */,
+			);
+			path = CombinePublishers;
+			sourceTree = "<group>";
+		};
+		65B3A1A12B88D192004406B3 /* ErrorHandling */ = {
+			isa = PBXGroup;
+			children = (
+				65B3A1A22B88D1F0004406B3 /* README.md */,
+				65B3A1A32B88D296004406B3 /* AssertNoFailure.swift */,
+				65B3A1A52B88F7DB004406B3 /* Catch.swift */,
+				65B3A1A72B88FA0B004406B3 /* TryCatch.swift */,
+				65B3A1A92B8907F6004406B3 /* MapError.swift */,
+				65B3A1AB2B890C34004406B3 /* ReplaceError.swift */,
+				65B3A1AD2B890DCD004406B3 /* Retry.swift */,
+			);
+			path = ErrorHandling;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -451,9 +522,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65B3A1AE2B890DCD004406B3 /* Retry.swift in Sources */,
 				657839202B82874D00D471AC /* TryReduce.swift in Sources */,
 				655DB1D82B62893500397D23 /* ContentView.swift in Sources */,
 				655DB2322B628A3800397D23 /* PublisherView.swift in Sources */,
+				65B3A1A42B88D296004406B3 /* AssertNoFailure.swift in Sources */,
 				657839172B8270DE00D471AC /* TryScanView.swift in Sources */,
 				655101812B7022370097C093 /* DataTaskPublisher.swift in Sources */,
 				654105B72B7DA34B00F87683 /* ReplaceEmpty.swift in Sources */,
@@ -465,32 +538,43 @@
 				657839132B8264E300D471AC /* SetFailureType.swift in Sources */,
 				655DB2222B628A3800397D23 /* PassThroughView.swift in Sources */,
 				650B33C12B641A9000363DDC /* model.swift in Sources */,
+				657839312B83AE5800D471AC /* Sink.swift in Sources */,
 				655DB2352B628A3800397D23 /* FutureRunsOnce.swift in Sources */,
+				65B3A1AA2B8907F6004406B3 /* MapError.swift in Sources */,
 				654105A62B7D208400F87683 /* Throttle.swift in Sources */,
 				654105AF2B7D581900F87683 /* filter.swift in Sources */,
 				6578391A2B8272AF00D471AC /* Collect.swift in Sources */,
 				6578390F2B825D5800D471AC /* TryMap.swift in Sources */,
 				654105B12B7D891500F87683 /* RemoveDuplicates.swift in Sources */,
+				65B3A19E2B87D2B1004406B3 /* SwitchToLatest.swift in Sources */,
 				657839152B826F5400D471AC /* ScanView.swift in Sources */,
 				654105B52B7D9F6300F87683 /* TryRemoveDuplicatesBy.swift in Sources */,
+				65B3A1A82B88FA0B004406B3 /* TryCatch.swift in Sources */,
 				655DB1ED2B6289C200397D23 /* Empty.swift in Sources */,
+				65B3A1A02B88B7C1004406B3 /* Zip.swift in Sources */,
+				65B3A19C2B87D186004406B3 /* Merge.swift in Sources */,
 				654105B32B7D9DA200F87683 /* RemoveDuplicatesBy.swift in Sources */,
 				6578391E2B82862900D471AC /* Reduce.swift in Sources */,
 				655101832B70304C0097C093 /* Satisfy.swift in Sources */,
 				654105AB2B7D48EA00F87683 /* CompactMap.swift in Sources */,
+				657839332B84F7E800D471AC /* PropertyPublisher.swift in Sources */,
+				65B3A19A2B87A2B7004406B3 /* FlatMap.swift in Sources */,
 				655DB23E2B628A3800397D23 /* CurrentValueSubjectView.swift in Sources */,
 				657839252B82B4BA00D471AC /* Last.swift in Sources */,
 				655DB1F02B6289C200397D23 /* Fail.swift in Sources */,
 				654105A22B7CFFFD00F87683 /* Delay.swift in Sources */,
 				655DB22A2B628A3800397D23 /* JustView.swift in Sources */,
 				654105972B7BA32A00F87683 /* Append.swift in Sources */,
+				657839352B84FB2500D471AC /* AnyPublisher.swift in Sources */,
 				654105AD2B7D4D4400F87683 /* TryCompactMap.swift in Sources */,
 				650B33B62B63328F00363DDC /* Contains.swift in Sources */,
 				657839232B82891900D471AC /* First.swift in Sources */,
 				655DB2392B628A3800397D23 /* FutureImmediate.swift in Sources */,
 				6578391C2B82851100D471AC /* IgnoreOutPut.swift in Sources */,
 				655DB2372B628A3800397D23 /* Defer.swift in Sources */,
+				65B3A1A62B88F7DB004406B3 /* Catch.swift in Sources */,
 				650B33B82B63C15800363DDC /* ChainedRequests.swift in Sources */,
+				65B3A1AC2B890C34004406B3 /* ReplaceError.swift in Sources */,
 				657839272B82B60700D471AC /* Output.swift in Sources */,
 				655DB1D62B62893500397D23 /* CombineBootcampApp.swift in Sources */,
 				6541059B2B7BB2ED00F87683 /* DropFirst.swift in Sources */,
@@ -501,6 +585,8 @@
 				6578390D2B82544700D471AC /* Map.swift in Sources */,
 				6578392A2B82B87400D471AC /* RecieveOn.swift in Sources */,
 				654105992B7BAC2100F87683 /* DropUntil.swift in Sources */,
+				65B3A1982B87A01B004406B3 /* CombineLatest.swift in Sources */,
+				6578392F2B83ACF300D471AC /* AssignTo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
