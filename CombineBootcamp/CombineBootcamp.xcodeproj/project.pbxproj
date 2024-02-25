@@ -79,6 +79,10 @@
 		65B3A1B52B8A2BDC004406B3 /* HandleEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B3A1B42B8A2BDC004406B3 /* HandleEvents.swift */; };
 		65B3A1B72B8A2D92004406B3 /* Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B3A1B62B8A2D92004406B3 /* Print.swift */; };
 		65B3A1B92B8A2E48004406B3 /* MemoryLeak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B3A1B82B8A2E48004406B3 /* MemoryLeak.swift */; };
+		65B3A1BF2B8B6F0C004406B3 /* KeyValueObserving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B3A1BE2B8B6F0C004406B3 /* KeyValueObserving.swift */; };
+		65B3A1C22B8B7F84004406B3 /* Share.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B3A1C12B8B7F84004406B3 /* Share.swift */; };
+		65B3A1C42B8BA0A6004406B3 /* MultiCast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B3A1C32B8BA0A6004406B3 /* MultiCast.swift */; };
+		65B3A1C62B8BA2C5004406B3 /* Future.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B3A1C52B8BA2C5004406B3 /* Future.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -157,6 +161,10 @@
 		65B3A1B42B8A2BDC004406B3 /* HandleEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleEvents.swift; sourceTree = "<group>"; };
 		65B3A1B62B8A2D92004406B3 /* Print.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Print.swift; sourceTree = "<group>"; };
 		65B3A1B82B8A2E48004406B3 /* MemoryLeak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryLeak.swift; sourceTree = "<group>"; };
+		65B3A1BE2B8B6F0C004406B3 /* KeyValueObserving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyValueObserving.swift; sourceTree = "<group>"; };
+		65B3A1C12B8B7F84004406B3 /* Share.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Share.swift; sourceTree = "<group>"; };
+		65B3A1C32B8BA0A6004406B3 /* MultiCast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiCast.swift; sourceTree = "<group>"; };
+		65B3A1C52B8BA2C5004406B3 /* Future.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Future.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -274,6 +282,8 @@
 		655DB1D42B62893500397D23 /* CombineBootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				65B3A1C02B8B7F67004406B3 /* ResourceManagement */,
+				65B3A1BD2B8B6EF2004406B3 /* KeyValueObserving */,
 				65B3A1AF2B89B101004406B3 /* Debugging */,
 				65B3A1A12B88D192004406B3 /* ErrorHandling */,
 				65B3A1962B879FC2004406B3 /* CombinePublishers */,
@@ -475,6 +485,24 @@
 			path = Debugging;
 			sourceTree = "<group>";
 		};
+		65B3A1BD2B8B6EF2004406B3 /* KeyValueObserving */ = {
+			isa = PBXGroup;
+			children = (
+				65B3A1BE2B8B6F0C004406B3 /* KeyValueObserving.swift */,
+			);
+			path = KeyValueObserving;
+			sourceTree = "<group>";
+		};
+		65B3A1C02B8B7F67004406B3 /* ResourceManagement */ = {
+			isa = PBXGroup;
+			children = (
+				65B3A1C12B8B7F84004406B3 /* Share.swift */,
+				65B3A1C32B8BA0A6004406B3 /* MultiCast.swift */,
+				65B3A1C52B8BA2C5004406B3 /* Future.swift */,
+			);
+			path = ResourceManagement;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -569,7 +597,9 @@
 				654105A62B7D208400F87683 /* Throttle.swift in Sources */,
 				654105AF2B7D581900F87683 /* filter.swift in Sources */,
 				6578391A2B8272AF00D471AC /* Collect.swift in Sources */,
+				65B3A1BF2B8B6F0C004406B3 /* KeyValueObserving.swift in Sources */,
 				6578390F2B825D5800D471AC /* TryMap.swift in Sources */,
+				65B3A1C62B8BA2C5004406B3 /* Future.swift in Sources */,
 				65B3A1B32B8A2A81004406B3 /* BreakPointOnError.swift in Sources */,
 				654105B12B7D891500F87683 /* RemoveDuplicates.swift in Sources */,
 				65B3A19E2B87D2B1004406B3 /* SwitchToLatest.swift in Sources */,
@@ -591,8 +621,10 @@
 				655DB1F02B6289C200397D23 /* Fail.swift in Sources */,
 				654105A22B7CFFFD00F87683 /* Delay.swift in Sources */,
 				655DB22A2B628A3800397D23 /* JustView.swift in Sources */,
+				65B3A1C42B8BA0A6004406B3 /* MultiCast.swift in Sources */,
 				654105972B7BA32A00F87683 /* Append.swift in Sources */,
 				657839352B84FB2500D471AC /* AnyPublisher.swift in Sources */,
+				65B3A1C22B8B7F84004406B3 /* Share.swift in Sources */,
 				654105AD2B7D4D4400F87683 /* TryCompactMap.swift in Sources */,
 				650B33B62B63328F00363DDC /* Contains.swift in Sources */,
 				657839232B82891900D471AC /* First.swift in Sources */,
