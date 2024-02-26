@@ -17,11 +17,13 @@ class MergeVM: ObservableObject {
     func fetch() {
         let shirt = ["num 7", "num 8"]
         let names = ["abdul", "kamal", "kampnar", "bear"]
-        let numbers = ["1", "2", "3"]
+        let numbers = ["1", "2"]
         _
         = shirt.publisher
             .merge(with: names.publisher, numbers.publisher)
+            .print()
             .sink { [unowned self] item in
+//                print(item)
                 data.append(item)
             }
     }

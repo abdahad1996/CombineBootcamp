@@ -23,7 +23,8 @@ class ChainedRequestsViewModel:ObservableObject{
     }
     
     func fetchPostDetails() -> AnyPublisher<PostDetail,Error> {
-        fetchPosts().flatMap(fetchPostDetails)
+        fetchPosts()
+            .flatMap(fetchPostDetails)
         .eraseToAnyPublisher()
     }
     func fetchPosts() -> AnyPublisher<[Post],Error>{

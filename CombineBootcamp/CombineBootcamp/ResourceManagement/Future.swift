@@ -18,6 +18,7 @@ import Combine
 
 
 //it means that Future is a convenient way to immediately start performing some work (without waiting for subscriptions) while performing work only once and delivering the result to any amount of subscribers. But it performs work and returns a single result, not a stream of results, so the use cases are narrower than full-blown publishers.
+
 fileprivate class FutureVM:ObservableObject{
     var cancellables = Set<AnyCancellable>()
     @Published var publisher1 = [Int]()

@@ -83,6 +83,8 @@
 		65B3A1C22B8B7F84004406B3 /* Share.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B3A1C12B8B7F84004406B3 /* Share.swift */; };
 		65B3A1C42B8BA0A6004406B3 /* MultiCast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B3A1C32B8BA0A6004406B3 /* MultiCast.swift */; };
 		65B3A1C62B8BA2C5004406B3 /* Future.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B3A1C52B8BA2C5004406B3 /* Future.swift */; };
+		65B3A1CC2B8D131F004406B3 /* FormValidationUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B3A1CB2B8D131F004406B3 /* FormValidationUIKit.swift */; };
+		65B3A1CF2B8D163B004406B3 /* UIControlPublishable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B3A1CE2B8D163B004406B3 /* UIControlPublishable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -165,6 +167,8 @@
 		65B3A1C12B8B7F84004406B3 /* Share.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Share.swift; sourceTree = "<group>"; };
 		65B3A1C32B8BA0A6004406B3 /* MultiCast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiCast.swift; sourceTree = "<group>"; };
 		65B3A1C52B8BA2C5004406B3 /* Future.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Future.swift; sourceTree = "<group>"; };
+		65B3A1CB2B8D131F004406B3 /* FormValidationUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidationUIKit.swift; sourceTree = "<group>"; };
+		65B3A1CE2B8D163B004406B3 /* UIControlPublishable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIControlPublishable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +229,7 @@
 				650B33C02B641A9000363DDC /* model.swift */,
 				650B33B72B63C15800363DDC /* ChainedRequests.swift */,
 				650B33BD2B64195700363DDC /* ZipRequests.swift */,
+				65B3A1CB2B8D131F004406B3 /* FormValidationUIKit.swift */,
 			);
 			path = RealExamples;
 			sourceTree = "<group>";
@@ -282,6 +287,7 @@
 		655DB1D42B62893500397D23 /* CombineBootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				65B3A1CD2B8D1619004406B3 /* UIControl+Publisher */,
 				65B3A1C02B8B7F67004406B3 /* ResourceManagement */,
 				65B3A1BD2B8B6EF2004406B3 /* KeyValueObserving */,
 				65B3A1AF2B89B101004406B3 /* Debugging */,
@@ -503,6 +509,14 @@
 			path = ResourceManagement;
 			sourceTree = "<group>";
 		};
+		65B3A1CD2B8D1619004406B3 /* UIControl+Publisher */ = {
+			isa = PBXGroup;
+			children = (
+				65B3A1CE2B8D163B004406B3 /* UIControlPublishable.swift */,
+			);
+			path = "UIControl+Publisher";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -586,7 +600,9 @@
 				655DB2252B628A3800397D23 /* CancelAllPipeLines.swift in Sources */,
 				655DB23A2B628A3800397D23 /* FuturView.swift in Sources */,
 				650B33BE2B64195700363DDC /* ZipRequests.swift in Sources */,
+				65B3A1CC2B8D131F004406B3 /* FormValidationUIKit.swift in Sources */,
 				654105A82B7D448100F87683 /* TimeOut.swift in Sources */,
+				65B3A1CF2B8D163B004406B3 /* UIControlPublishable.swift in Sources */,
 				657839132B8264E300D471AC /* SetFailureType.swift in Sources */,
 				655DB2222B628A3800397D23 /* PassThroughView.swift in Sources */,
 				650B33C12B641A9000363DDC /* model.swift in Sources */,
